@@ -1,7 +1,7 @@
 import requests
 import time
 import os
-from shared.config import HUB_URL, MAIN_MOBILE
+from shared import HUB_URL, MAIN_MOBILE
 
 def handle_mobile_action(data):
     action = data.get("action")
